@@ -102,15 +102,17 @@ https://cdn.jsdelivr.net/gh/CrHouse815/-MC-_lite-@main/文件路径
 
 ## 🎮 在酒馆中使用
 
-### 方式一：直接引用编译后的文件（推荐）
+### 方式一：直接引用编译后的 HTML 文件（推荐）
 
-如果你编译了项目并上传了 dist 文件夹：
+编译后的文件已经上传，可以直接使用：
 
-```html
-<!-- 在界面的 HTML 中 -->
-<script src="https://cdn.jsdelivr.net/gh/CrHouse815/-MC-_lite-@main/dist/index.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CrHouse815/-MC-_lite-@main/dist/style.css">
+**🎯 你的 MClite 界面地址：**
+
 ```
+https://cdn.jsdelivr.net/gh/CrHouse815/-MC-_lite-@main/dist/index.html
+```
+
+在酒馆的 iframe 中使用这个地址即可加载完整的 MClite 界面。
 
 ### 方式二：引用 JSON 配置文件
 
